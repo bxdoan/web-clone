@@ -1,0 +1,401 @@
+.cameraRails {
+  display: grid;
+  gap: 24px;
+  margin: 30px auto 42px;
+  max-width: 1140px;
+}
+
+.rail {
+  color: #333;
+  font-family: inherit;
+  margin-inline: auto;
+  max-width: 100%;
+  width: 759px;
+}
+
+.first {
+  height: 292px;
+}
+
+.second {
+  height: 282px;
+}
+
+.viewport {
+  height: calc(100% - 34px);
+  overflow: hidden;
+  width: 100%;
+}
+
+.track {
+  display: flex;
+  height: 100%;
+  transform: translateX(var(--track-offset));
+  transition: transform 320ms ease;
+  width: var(--track-width);
+  will-change: transform;
+}
+
+.slide {
+  box-sizing: border-box;
+  flex: 0 0 var(--slide-width);
+  height: 100%;
+  min-width: 0;
+  padding: 0 8px;
+}
+
+.card {
+  align-items: center;
+  background: #fff;
+  box-sizing: border-box;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 10px 13px 9px;
+  text-align: center;
+  text-decoration: none;
+  transition: box-shadow 160ms ease, transform 160ms ease;
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgb(44 44 49 / 10%);
+  transform: translateY(-2px);
+}
+
+.card:focus-visible,
+.arrow:focus-visible,
+.dot:focus-visible {
+  outline: 3px solid #ff631b;
+  outline-offset: 3px;
+}
+
+.imageFrame {
+  display: block;
+  flex: 0 0 166px;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.productImage {
+  object-fit: contain;
+}
+
+.cardCopy {
+  align-items: center;
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 0;
+  padding-top: 4px;
+  width: 100%;
+}
+
+.productTitle {
+  display: -webkit-box;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.4;
+  max-height: 36px;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+
+.price {
+  color: #ff631b;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.buyButton {
+  align-items: center;
+  background: #ff631b;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 700;
+  height: 27px;
+  justify-content: center;
+  line-height: 1;
+  min-width: 96px;
+  padding: 0 12px;
+  transition: background-color 120ms ease;
+}
+
+.card:hover .buyButton {
+  background: #ff5201;
+}
+
+.controls {
+  align-items: center;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  gap: 14px;
+}
+
+.arrow {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  border-radius: 50%;
+  color: #2c2c31;
+  cursor: pointer;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  padding: 0;
+  width: 30px;
+}
+
+.arrow:disabled {
+  color: #b7b7b7;
+  cursor: default;
+}
+
+.dots {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.dot {
+  background: #c8c8c8;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  height: 8px;
+  padding: 0;
+  width: 8px;
+}
+
+.activeDot {
+  background: #ff631b;
+}
+
+.memorySection {
+  background: #f8f8f8;
+  box-sizing: border-box;
+  min-height: 458px;
+  padding: 40px 20px 30px;
+  width: 100%;
+}
+
+.memoryInner {
+  margin-inline: auto;
+  max-width: 1140px;
+}
+
+.memoryHeading {
+  color: #333;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin: 0 0 18px;
+  text-align: center;
+}
+
+.memory {
+  height: 340px;
+  width: 100%;
+}
+
+.memory .viewport {
+  height: calc(100% - 36px);
+}
+
+.memory .slide {
+  padding: 0 12px;
+}
+
+.memory .card {
+  padding: 12px 18px;
+}
+
+.memory .imageFrame {
+  flex-basis: 220px;
+  max-width: 100%;
+}
+
+.memory .productTitle {
+  font-size: 15px;
+  max-height: 42px;
+}
+
+.camera .viewport {
+  background: #f8f8f8;
+}
+
+@media (max-width: 900px) {
+  .cameraRails {
+    margin-inline: 20px;
+  }
+
+  .memorySection {
+    padding-inline: 20px;
+  }
+
+  .memory .imageFrame {
+    flex-basis: 200px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cameraRails {
+    gap: 18px;
+    margin: 24px 16px 34px;
+  }
+
+  .rail {
+    width: 100%;
+  }
+
+  .first,
+  .second {
+    height: 286px;
+  }
+
+  .imageFrame {
+    flex-basis: 170px;
+  }
+
+  .slide {
+    padding-inline: 6px;
+  }
+
+  .card {
+    padding-inline: 10px;
+  }
+
+  .memorySection {
+    padding: 32px 16px 26px;
+  }
+
+  .memory {
+    height: 330px;
+  }
+}
+
+@media (max-width: 460px) {
+  .cameraRails {
+    background: #eeeeee;
+    gap: 18px;
+    margin: 20px 0 30px;
+    padding: 12px 0;
+  }
+
+  .first,
+  .second {
+    height: 472px;
+  }
+
+  .viewport {
+    height: calc(100% - 38px);
+  }
+
+  .slide {
+    padding-inline: 4vw;
+  }
+
+  .card {
+    background: #eeeeee;
+    padding: 12px 14px 14px;
+  }
+
+  .imageFrame {
+    flex-basis: auto;
+    height: min(64vw, 270px);
+    width: 100%;
+  }
+
+  .cardCopy {
+    justify-content: flex-start;
+    padding-top: 10px;
+  }
+
+  .productTitle {
+    font-size: 16px;
+    line-height: 1.45;
+    max-height: none;
+  }
+
+  .price {
+    font-size: 16px;
+    margin-top: 7px;
+  }
+
+  .buyButton {
+    font-size: 12px;
+    height: 30px;
+    margin-top: 10px;
+    min-width: 96px;
+  }
+
+  .camera .viewport {
+    background: #eeeeee;
+  }
+
+  .memorySection {
+    min-height: 458px;
+    padding: 30px 0 20px;
+  }
+
+  .memoryInner {
+    padding-inline: 0;
+  }
+
+  .memoryHeading {
+    font-size: 22px;
+    margin-bottom: 16px;
+  }
+
+  .memory {
+    height: 374px;
+  }
+
+  .memory .viewport {
+    height: calc(100% - 38px);
+  }
+
+  .memory .slide {
+    padding-inline: 4vw;
+  }
+
+  .memory .card {
+    background: #fff;
+    padding: 12px 14px;
+  }
+
+  .memory .imageFrame {
+    flex-basis: auto;
+    height: min(70vw, 260px);
+  }
+
+  .memory .productTitle {
+    font-size: 15px;
+  }
+
+  .controls {
+    gap: 10px;
+    height: 38px;
+  }
+
+  .arrow {
+    height: 28px;
+    width: 28px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track,
+  .card,
+  .buyButton {
+    transition: none;
+  }
+}

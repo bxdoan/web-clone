@@ -1,0 +1,111 @@
+# Downloaded assets
+
+Source assets are stored locally under public/sites/70maivietnam-store-f583e865/root-8a5edab2/.
+
+- 70mai Việt Nam - Đại sứ thương hiệu Hoàng Đức: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Banner-70mai-HD-2026-web-2336e553.webp
+- 70mai Việt Nam: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70maivietnam-tc-98e4ba46.webp
+- 70mai Việt Nam | Đại sứ thương hiệu Hoàng Đức: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Banner-70mai-HD-2026-mb-ffb45181.webp
+- Đại sứ thương hiệu 70mai - HoangDuc -2026: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Dai-su-thuong-hieu-70mai-Viet-Nam-HD-2e5fac35.webp
+- 70mai 4k Omni X800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-4K-Omni-X800-2-3a0d13c7.webp
+- Camera hành trình - 70mai Omni: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70maivietnam-Omni-efee45f6.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-X800-4K-xoay-360-ket-noi-4G-2-3f6514ad.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/camera-hanh-trinh-70maai-S410-7ca11ae9.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-nen-xoa-phong-2-4dd83141.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Anh-dai-dienj-70mai-M310-Plus-4K-c872fba9.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/M310-Plus-7440a6e8.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/bg_p3_lite22x-1667387146069-aebb1ccf.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-dai-dien-A810-lite-2-83202a29.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-dai-dien-63d3ad58.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Anh-dai-dien-3e68303b.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Dai-dien-70mai-A510-moi-580x580-1-5e465ade.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-xoa-phong-2-e1769396861678-b1ecaad2.webp
+- 70mai - Lưu giữ bằng chứng khi xảy ra tại nạn: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-bang-chung-khi-xay-ra-tai-nan-giaothong-a0db9b44.webp
+- 70mai - Tăng cường an ninh: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-giam-sat-do-xe-an-toan-f9eb87d9.webp
+- 70mai - Hỗ trợ lái xe an toàn: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-ho-tro-lai-xe-an-toan-adas-0313dc5d.webp
+- 70mai - Lưu giữ kỷ niệm trên mọi hành trình: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-luu-giu-ky-niem-719ad10f.webp
+- Camera hành trình trước: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/ghi-hinh-phia-truoc-xe-4-e2546cfd.webp
+- Camera hành trình trước và sau: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/ghi-hinh-truoc-sau-o-to-4-74a4d2ae.webp
+- Camera hành trình 3 mắt trước trong sau: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/camera-hanh-trinh-ghi-hinh-3-kenh-truoc-trong-va-sau-6d9a4fe1.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Anh-dai-dien-the-nho-lexar-633x1-1-b8685ac1.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Anh-dai-dien-the-nho-lexar-blue-plus-1-29dde8b6.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Anh-dai-dien-the-nho-lexar-silver-plusx-1-f90e5aea.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-PS07-Anh-Dai-Dien-2-848dae4c.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/1.1-3a91ded3.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/TP10-2-fa4dae31.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-ps01-0e88ce32.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Hardwire-Kit-UP4-Module-4G-3128dfad.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/0dd3abdb29bbb49c407aab4820f2cc4e-af0d8fff.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-RC-11-12-3-2e738354.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/mat-cam-sau-RC13-e1717053577986-551f63c0.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Tau-sac-70mai-672940c1.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Cap-nguon-phu-kien-70mai-cho-Camera-hanh-trinh-7df52cbc.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Phu-kien-70mai-danh-cho-Camera-hanh-trinh-A800S-07e921cf.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Phu-kien-70mai-cho-Dash-Cam-A500S-e157d698.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Phu-kien-70mai-cho-Camera-hanh-trinh-1S-M300-1a9d479d.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Phu-kien-70mai-cho-Dash-Cam-Omni-3d5a6677.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Dong-phuc-70mai-e894b60b.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/may-cat-long-mui-70mai-1-2ea618c7.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Binh-nuoc-the-thao-368de306.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Binh-nuoc-cach-nhiet-70mai-e828cb6f.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/o-che-nang-mua-70mai-bbbc0a35.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/img_p5_12x-1667443345793-93703dd8.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/img_p5_22x-1667443318328-99b0d776.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/img_p5_32x-1667443352231-c2afd4b3.webp
+- Đội ngũ nhân sự 70mai Việt Nam: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Viet-Nam-EXPO-02e7324f.webp
+- 70mai Việt Nam - Affiliate 2025 | Camera hành trình ô tô 70mai: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70maivietnam-Affiliate-2025-8bef0ab4.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai_online_logo-47338d68.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/icon-zalo-9bacacd1.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/viber-3ef1a61d.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/icon-messenger-12006689.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/icon-map-10853971.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/viber-48659f61.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/logo-70maivietnam.svg
+- 70mai omni X800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-A800SE-noi-bat-trang-chu-2.jpg
+- 70mai A800SE SpeedEye: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-A800SEspeedeye-noi-bat-trang-chu.jpg
+- Camera hành trình ô tô - 70mai T800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T800-70mai-SP-noi-bat-trang-chu.jpg
+- Camera hành trình 70mai 4K T800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T800-SP-noi-bat-trang-chu-2.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-A810-lite-noi-bat-trang-chu-2.jpg
+- 70mai-A810 Lite: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-A810-Lite-noi-bat-trang-chu.jpg
+- 70mai-A810--trang-chủ: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/A810S-70mai-SP-noi-bat-trang-chu.jpg
+- 70mai A810S: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/A810S-SP-noi-bat-trang-chu-2.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/M800-SP-noi-bat-trang-chu-2.jpg
+- 70mai-A810--trang-chủ: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/M800-70mai-SP-noi-bat-trang-chu.jpg
+- Camera hành trình 70mai T400: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T400-70mai-SP-noi-bat-trang-chu.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T400-Dai-dien-trang-chu-2.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-noi-A410-Neo-bat-trang-chu-2.jpg
+- Camera hành trình 70mai A410 Neo: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-noi-bat-A410-Neo-trang-chu.jpg
+- Camera hành trình ô tô - 70mai A210: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-noi-bat-A210-trang-chu.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Camera-hanh-trinh-70mai-A210.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-M310-4K-noi-bat-trang-chu-2.jpg
+- Camera hành trình ô tô - 70mai M310 Plus 4K: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-SP-M310-4K-noi-bat-trang-chu.jpg
+- 70mai-M310-trang-chủ: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Desktop-70mai-m310-plus-noi-bat-trang-chu.jpg
+- 70mai-m300-2: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Desktop-70mai-m310-plus-SP-noi-bat-trang-chu-2.jpg
+- Camera hành trình - 70mai A800SE SpeedEye: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-Mobile-A800SE-sp-noi-bat.jpg
+- Camera hành trình - 70mai T800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T800-anh-Mobile-sp-noi-bat.jpg
+- 70mai-A810 Lite: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-Mobile-sp-A810-Lite-noi-bat.jpg
+- Camera hành trình 70mai 4K A810S: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/A810S-anh-Mobile-sp-noi-bat.jpg
+- Camera hành trình - 70mai M800: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/M800-anh-Mobile-sp-noi-bat.jpg
+- Camera hành trình - 70mai T400: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/T400-anh-Mobile-sp-noi-bat.jpg
+- Camera hành trình - 70mai A410 Neo: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-Mobile-A410-Neo-sp-noi-bat.jpg
+- Camera hành trình - 70mai A200: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-Mobile-sp-A210-noi-bat.jpg
+- Camera hành trình 70mai M310 Plus 4K: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-Mobile-sp-M310-4K-noi-bat.jpg
+- 70mai-M310-mobile: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/Mobile-70mai-m310-plus-SP-noi-bat-trang-chu.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/bg_p3_lite23x-1667887823390-5608eadb.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-TP01-fb63e07b.webp
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/may-hut-bui-70mai-4e4dab1f.webp
+- Hệ thống đại lý 70mai Việt Nam: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/MAP-70mai-Viet-Nam.jpg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/logoSaleNoti.png
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-11.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-12.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-13.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-14.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-15.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-16.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-17.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-18.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-19.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-20.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/svgexport-10.svg
+- : /public/sites/70maivietnam-store-f583e865/root-8a5edab2/images/youtube.png
+- Manrope Regular: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/fonts/Manrope-Regular.woff2
+- Manrope Bold: /public/sites/70maivietnam-store-f583e865/root-8a5edab2/fonts/Manrope-Bold.woff2

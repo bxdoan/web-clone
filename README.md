@@ -137,6 +137,14 @@ npm run typecheck # TypeScript check
 npm run check  # Run lint + typecheck + build
 ```
 
+## Vercel deployment
+
+This Next.js project uses Vercel's framework defaults. `vercel.json` selects the Next.js preset, and `package.json` pins the Node.js major version to `24.x`.
+
+To enable automatic deployments, import this Git repository into Vercel and set the production branch. Vercel then creates preview deployments for other branch pushes and production deployments for pushes to the production branch. Keep the project root as the repository root and leave the build command and output directory on their Next.js defaults.
+
+See [Vercel's Git deployment guide](https://vercel.com/docs/git) and [Next.js on Vercel](https://vercel.com/docs/frameworks/full-stack/nextjs).
+
 ### If using docker
 
 ```bash

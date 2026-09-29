@@ -1,0 +1,562 @@
+.page {
+  min-height: 58vh;
+  padding: 24px 0 58px;
+  color: #2c2c31;
+  background: #fff;
+}
+
+.container {
+  width: min(1140px, calc(100% - 36px));
+  margin: 0 auto;
+}
+
+.readableContainer {
+  width: min(820px, calc(100% - 36px));
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  margin: 0 0 26px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.breadcrumbs ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.breadcrumbs li:not(:last-child)::after {
+  margin-left: 7px;
+  color: #aaa;
+  content: "/";
+}
+
+.breadcrumbs a {
+  color: #666;
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover,
+.breadcrumbs [aria-current="page"] {
+  color: #ff631b;
+}
+
+.listingHeader {
+  margin: 0 auto 32px;
+  text-align: center;
+}
+
+.kicker {
+  margin: 0 0 8px;
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.listingHeader h1,
+.articleHeader h1,
+.contactHeader h1 {
+  margin: 0;
+  color: #2c2c31;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+
+.listingHeader h1 {
+  font-size: 26px;
+  letter-spacing: 0.025em;
+}
+
+.articleGrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 26px 22px;
+}
+
+.articleCard {
+  display: flex;
+  min-width: 0;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 0 2px 14px rgb(0 0 0 / 7%);
+}
+
+.cardImage {
+  position: relative;
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.cardImage img {
+  object-fit: cover;
+  transition: transform 250ms ease;
+}
+
+.cardImage:hover img {
+  transform: scale(1.035);
+}
+
+.cardCopy {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 17px 18px 19px;
+}
+
+.cardCopy h2 {
+  margin: 0 0 9px;
+  color: #2c2c31;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.cardCopy h2 a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.cardCopy h2 a:hover {
+  color: #ff631b;
+}
+
+.cardCopy p {
+  margin: 0 0 14px;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.65;
+}
+
+.readMore {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: auto;
+  color: #ff631b;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.readMore:hover {
+  color: #e74900;
+}
+
+.articleDetail {
+  padding-bottom: 10px;
+}
+
+.articleHeader {
+  max-width: 900px;
+  margin: 0 auto 24px;
+}
+
+.articleHeader h1 {
+  margin-bottom: 14px;
+}
+
+.articleIntro {
+  margin: 0;
+  color: #666;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+.leadImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 8.5;
+  overflow: hidden;
+  margin-bottom: 34px;
+  background: #f4f4f4;
+}
+
+.leadImage img {
+  object-fit: cover;
+}
+
+.articleBody {
+  width: min(760px, 100%);
+  margin: 0 auto;
+  color: #444;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.articleSection + .articleSection {
+  margin-top: 27px;
+}
+
+.articleSection h2 {
+  margin: 0 0 10px;
+  color: #2c2c31;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1.45;
+}
+
+.articleSection p {
+  margin: 0 0 12px;
+}
+
+.articleSection ul {
+  display: grid;
+  gap: 8px;
+  margin: 0 0 14px;
+  padding-left: 23px;
+}
+
+.articleSection li::marker {
+  color: #ff631b;
+}
+
+.contactCallout {
+  width: min(760px, 100%);
+  margin: 32px auto 0;
+  padding: 19px 22px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.contactCallout p {
+  margin: 0 0 7px;
+  color: #555;
+  font-size: 15px;
+}
+
+.contactCallout a {
+  color: #ff631b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contactHeader {
+  max-width: 760px;
+  margin: 0 auto 34px;
+  text-align: center;
+}
+
+.contactHeader h1 {
+  margin-bottom: 12px;
+}
+
+.contactHeader > p:last-child {
+  margin: 0;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.channelGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.channelCard {
+  display: flex;
+  min-height: 176px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 14px;
+  background: #f8f8f8;
+  text-align: center;
+}
+
+.channelIcon {
+  display: grid;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  margin-bottom: 10px;
+  border-radius: 50%;
+  color: #fff;
+  background: #ff631b;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.channelIcon svg {
+  width: 20px;
+  height: 20px;
+}
+
+.channelCard h2 {
+  margin: 0 0 7px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.channelCard a {
+  color: #555;
+  font-size: 15px;
+  line-height: 1.6;
+  text-decoration: none;
+}
+
+.channelCard a:hover {
+  color: #ff631b;
+}
+
+.hotlineNumbers {
+  display: grid;
+  gap: 2px;
+}
+
+.showroomSection,
+.locationSection {
+  margin-top: 46px;
+}
+
+.sectionHeading {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.sectionHeading h2 {
+  margin: 0 0 7px;
+  color: #2c2c31;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.4;
+}
+
+.sectionHeading p {
+  margin: 0;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.showroomGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+}
+
+.showroomCard {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  padding: 20px;
+  border: 1px solid #eee;
+  background: #fff;
+}
+
+.showroomCard > svg {
+  width: 22px;
+  height: 22px;
+  flex: 0 0 auto;
+  color: #ff631b;
+}
+
+.showroomCard h3 {
+  margin: 0 0 5px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.showroomCard p {
+  margin: 0 0 9px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.showroomCard a {
+  color: #ff631b;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mapImage {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1140 / 652;
+  overflow: hidden;
+  background: #f4f4f4;
+}
+
+.mapImage img {
+  object-fit: contain;
+}
+
+.locationList {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px 24px;
+  margin: 18px 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.locationList li {
+  position: relative;
+  padding-left: 19px;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.55;
+}
+
+.locationList li::before {
+  position: absolute;
+  left: 0;
+  color: #ff631b;
+  content: "•";
+}
+
+.locationList a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.locationList a:hover {
+  color: #ff631b;
+}
+
+.utilityArticle {
+  padding-bottom: 20px;
+}
+
+.notFoundTitle {
+  margin: 0 0 12px;
+  color: #2c2c31;
+  font-size: 28px;
+  line-height: 1.3;
+}
+
+.page a:focus-visible {
+  outline: 2px solid #ff631b;
+  outline-offset: 3px;
+}
+
+@media (max-width: 960px) {
+  .articleGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .channelGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 640px) {
+  .page {
+    padding: 17px 0 100px;
+  }
+
+  .container,
+  .readableContainer {
+    width: calc(100% - 28px);
+  }
+
+  .breadcrumbs {
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+
+  .listingHeader {
+    margin-bottom: 23px;
+  }
+
+  .listingHeader h1,
+  .articleHeader h1,
+  .contactHeader h1 {
+    font-size: 24px;
+  }
+
+  .kicker {
+    font-size: 13px;
+  }
+
+  .articleGrid {
+    grid-template-columns: 1fr;
+    gap: 18px;
+  }
+
+  .cardCopy {
+    padding: 15px 16px 17px;
+  }
+
+  .cardCopy h2 {
+    font-size: 16px;
+  }
+
+  .articleHeader {
+    margin-bottom: 18px;
+  }
+
+  .articleIntro {
+    font-size: 15px;
+  }
+
+  .leadImage {
+    aspect-ratio: 16 / 10;
+    margin-bottom: 24px;
+  }
+
+  .articleBody {
+    font-size: 15px;
+    line-height: 1.75;
+  }
+
+  .articleSection h2 {
+    font-size: 19px;
+  }
+
+  .contactHeader {
+    margin-bottom: 25px;
+  }
+
+  .contactHeader > p:last-child {
+    font-size: 14px;
+  }
+
+  .channelGrid,
+  .showroomGrid,
+  .locationList {
+    grid-template-columns: 1fr;
+  }
+
+  .channelCard {
+    min-height: 148px;
+  }
+
+  .showroomSection,
+  .locationSection {
+    margin-top: 34px;
+  }
+
+  .sectionHeading h2 {
+    font-size: 20px;
+  }
+
+  .mapImage {
+    aspect-ratio: 1140 / 652;
+  }
+
+  .contactPage {
+    padding-bottom: 112px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cardImage img {
+    transition: none;
+  }
+}

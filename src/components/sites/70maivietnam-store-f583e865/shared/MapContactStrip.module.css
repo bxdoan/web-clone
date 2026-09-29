@@ -1,0 +1,60 @@
+.strip {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  display: grid;
+  width: 55%;
+  height: 20%;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  align-items: center;
+  padding: 6px 8px;
+  background: #fff;
+}
+
+.phone {
+  display: grid;
+  justify-items: center;
+  gap: 3px;
+  color: #c91020;
+  line-height: 1.2;
+  text-align: center;
+  text-decoration: none;
+}
+
+.phone span {
+  font-size: clamp(8px, 0.8vw, 11px);
+  font-weight: 700;
+  letter-spacing: 0.05em;
+}
+
+.phone strong {
+  font-size: clamp(10px, 1.05vw, 15px);
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.phone:focus-visible {
+  outline: 2px solid #c91020;
+  outline-offset: 2px;
+}
+
+@media (max-width: 640px) {
+  .strip {
+    width: 58%;
+    height: 20%;
+    padding: 3px 1px;
+  }
+
+  .phone {
+    gap: 1px;
+  }
+
+  .phone span {
+    font-size: 7px;
+  }
+
+  .phone strong {
+    font-size: 8px;
+  }
+}

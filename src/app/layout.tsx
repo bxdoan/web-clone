@@ -1,20 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const manrope = localFont({
+  src: [
+    {
+      path: "../../public/sites/70maivietnam-store-f583e865/root-8a5edab2/fonts/Manrope-Regular.woff2",
+      weight: "400",
+      style: "normal",
+    },
+    {
+      path: "../../public/sites/70maivietnam-store-f583e865/root-8a5edab2/fonts/Manrope-Bold.woff2",
+      weight: "700",
+      style: "normal",
+    },
+  ],
+  variable: "--font-manrope",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "Website Clone",
-  description: "Pixel-perfect website clone",
+  title: "Camera Hành Trình Ô Tô 70mai | Chính Hãng - Giá Rẻ - Bán Chạy",
+  description:
+    "Camera hành trình 70mai chính hãng tại Việt Nam. Khám phá các dòng camera, phụ kiện, hướng dẫn lắp đặt và hệ thống đại lý.",
 };
 
 export default function RootLayout({
@@ -23,11 +31,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
-    >
-      <body className="min-h-full flex flex-col">{children}</body>
+    <html lang="vi" className={`${manrope.variable} h-full antialiased`}>
+      <body className="min-h-full">{children}</body>
     </html>
   );
 }

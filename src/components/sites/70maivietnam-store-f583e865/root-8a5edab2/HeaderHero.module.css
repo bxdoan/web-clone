@@ -1,0 +1,746 @@
+.announcement {
+  display: flex;
+  min-height: 52px;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  padding: 0 20px;
+  background: var(--mai-ticker, #202020);
+  color: #fff;
+  text-align: center;
+}
+
+.announcementText {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.4;
+  animation: ticker-in 320ms ease-out both;
+}
+
+.header {
+  position: sticky;
+  z-index: 40;
+  top: 0;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 1px 5px rgb(0 0 0 / 7%);
+}
+
+.headerInner {
+  display: flex;
+  width: 100%;
+  height: 81px;
+  align-items: center;
+  gap: clamp(14px, 2vw, 30px);
+  padding: 0 clamp(20px, 3vw, 44px);
+}
+
+.logoLink {
+  display: flex;
+  width: 145px;
+  min-width: 120px;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.logoLink img {
+  width: 100%;
+  height: auto;
+}
+
+.desktopNavigation {
+  display: flex;
+  min-width: 0;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp(9px, 1.35vw, 20px);
+  margin-left: auto;
+  white-space: nowrap;
+}
+
+.desktopNavItem {
+  display: flex;
+  height: 100%;
+  align-items: center;
+}
+
+.desktopNavItem > a {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #2c2c31;
+  font-size: 14px;
+  font-weight: 500;
+  transition: color 160ms ease;
+}
+
+.desktopNavItem:hover > a,
+.desktopNavItem:focus-within > a {
+  color: var(--mai-orange, #ff631b);
+}
+
+.megaMenu {
+  position: absolute;
+  z-index: 44;
+  top: 100%;
+  right: 0;
+  left: 0;
+  padding: 22px clamp(20px, 5vw, 80px) 28px;
+  border-top: 1px solid #eee;
+  background: #fff;
+  box-shadow: 0 14px 28px rgb(0 0 0 / 12%);
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(6px);
+  transition: opacity 140ms ease, transform 140ms ease, visibility 140ms ease;
+  visibility: hidden;
+}
+
+.desktopNavItem:hover .megaMenu,
+.desktopNavItem:focus-within .megaMenu {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+.megaMenuInner {
+  display: grid;
+  width: min(1240px, 100%);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0 28px;
+  margin: 0 auto;
+}
+
+.megaMenuInner a {
+  padding: 12px 0;
+  border-bottom: 1px solid #f0f0f0;
+  color: #3b3b3b;
+  font-size: 14px;
+  white-space: normal;
+  transition: color 140ms ease;
+}
+
+.megaMenuInner a:hover,
+.megaMenuInner a:focus-visible {
+  color: var(--mai-orange, #ff631b);
+}
+
+.chevron {
+  flex: 0 0 12px;
+  width: 12px;
+  height: 12px;
+}
+
+.desktopNavItem > a:hover,
+.desktopNavItem > a:focus-visible,
+.mobileNavigation > a:not(.warrantyButton):hover,
+.mobileNavigation > a:not(.warrantyButton):focus-visible {
+  color: var(--mai-orange, #ff631b);
+}
+
+.warrantyButton {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  padding: 0 16px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--mai-orange, #ff631b);
+  color: #fff !important;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 1.2;
+  transition: background 160ms ease;
+  cursor: pointer;
+}
+
+.warrantyButton:hover,
+.warrantyButton:focus-visible {
+  background: var(--mai-orange-hover, #ff5201);
+}
+
+.warrantyDialog {
+  position: fixed;
+  z-index: 120;
+  inset: 0;
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 20px;
+  border: 0;
+  background: transparent;
+  color: #2c2c31;
+}
+
+.warrantyDialog:not([open]) {
+  display: none;
+}
+
+.warrantyDialog::backdrop {
+  background: rgb(0 0 0 / 55%);
+}
+
+.warrantyScrim {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.warrantyPanel {
+  position: relative;
+  width: min(520px, 100%);
+  margin: min(18vh, 150px) auto 0;
+  padding: 42px 38px 36px;
+  background: #fff;
+  box-shadow: 0 16px 50px rgb(0 0 0 / 22%);
+}
+
+.warrantyPanel h2 {
+  margin: 0 0 10px;
+  font-size: 21px;
+  line-height: 1.35;
+  text-align: center;
+}
+
+.warrantyPanel p {
+  margin: 0 0 20px;
+  color: #666;
+  font-size: 14px;
+  text-align: center;
+}
+
+.warrantyPanel form {
+  display: grid;
+  gap: 12px;
+}
+
+.warrantyPanel input {
+  width: 100%;
+  min-height: 46px;
+  padding: 0 13px;
+  border: 1px solid #d9d9d9;
+  font: inherit;
+  font-size: 14px;
+}
+
+.warrantyPanel form button {
+  min-height: 44px;
+  border-radius: 3px;
+}
+
+.warrantyClose {
+  position: absolute;
+  top: 9px;
+  right: 9px;
+  display: inline-grid;
+  width: 34px;
+  height: 34px;
+  place-items: center;
+  border: 0;
+  background: transparent;
+  color: #444;
+  cursor: pointer;
+}
+
+.warrantyClose svg {
+  width: 20px;
+  height: 20px;
+}
+
+.warrantyNotice {
+  margin-top: 15px !important;
+  color: #a34316 !important;
+}
+
+.headerActions {
+  display: flex;
+  flex: 0 0 auto;
+  align-items: center;
+  gap: 14px;
+}
+
+.iconButton {
+  display: inline-flex;
+  width: 36px;
+  height: 36px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: #2c2c31;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.iconButton:hover,
+.iconButton:focus-visible {
+  background: #f5f5f5;
+  color: var(--mai-orange, #ff631b);
+}
+
+.iconButton svg {
+  width: 21px;
+  height: 21px;
+}
+
+.mobileTools {
+  display: none;
+}
+
+.searchPanel {
+  position: absolute;
+  z-index: 42;
+  top: 100%;
+  right: clamp(16px, 3vw, 44px);
+  display: flex;
+  width: min(430px, calc(100vw - 32px));
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 8px 24px rgb(0 0 0 / 12%);
+}
+
+.searchLabel {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  clip-path: inset(50%);
+}
+
+.searchPanel input {
+  width: 100%;
+  min-width: 0;
+  height: 42px;
+  padding: 0 12px;
+  border: 1px solid #dedede;
+  border-radius: 3px;
+  color: #2c2c31;
+  font: inherit;
+  font-size: 14px;
+}
+
+.searchPanel input:focus {
+  border-color: var(--mai-orange, #ff631b);
+  outline: 2px solid rgb(255 99 27 / 15%);
+}
+
+.searchPanel button {
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 auto;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 3px;
+  background: var(--mai-orange, #ff631b);
+  color: #fff;
+  cursor: pointer;
+}
+
+.searchPanel button svg {
+  width: 20px;
+  height: 20px;
+}
+
+.mobileDialog {
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  display: block;
+  width: 100vw;
+  max-width: none;
+  height: 100dvh;
+  max-height: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: #2c2c31;
+  overflow: hidden;
+}
+
+.mobileDialog:not([open]) {
+  display: none;
+}
+
+.mobileDialog::backdrop {
+  background: rgb(0 0 0 / 48%);
+}
+
+.dialogScrim {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
+.dialogPanel {
+  position: relative;
+  z-index: 1;
+  width: min(420px, 100%);
+  height: 100%;
+  padding: 22px 22px 30px;
+  background: #fff;
+  box-shadow: 10px 0 28px rgb(0 0 0 / 12%);
+  overflow-y: auto;
+}
+
+.dialogHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ededed;
+}
+
+.dialogHeader > a {
+  display: block;
+  width: 145px;
+}
+
+.dialogHeader img {
+  width: 100%;
+  height: auto;
+}
+
+.mobileNavigation {
+  display: flex;
+  flex-direction: column;
+  padding-top: 14px;
+}
+
+.mobileNavigation > a:not(.warrantyButton) {
+  padding: 15px 2px;
+  border-bottom: 1px solid #ededed;
+  color: #2c2c31;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.mobileNavGroup {
+  border-bottom: 1px solid #ededed;
+}
+
+.mobileNavGroup summary {
+  padding: 15px 2px;
+  color: #2c2c31;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+}
+
+.mobileNavGroup summary::-webkit-details-marker {
+  display: none;
+}
+
+.mobileNavGroup summary::after {
+  float: right;
+  color: #777;
+  content: "+";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.mobileNavGroup[open] summary::after {
+  content: "−";
+}
+
+.mobileSubmenu {
+  display: grid;
+  gap: 0;
+  padding: 0 0 10px 12px;
+}
+
+.mobileSubmenu a {
+  padding: 9px 0;
+  color: #555;
+  font-size: 14px;
+}
+
+.mobileSubmenu a:hover,
+.mobileSubmenu a:focus-visible {
+  color: var(--mai-orange, #ff631b);
+}
+
+.mobileNavigation .warrantyButton {
+  align-self: flex-start;
+  margin-top: 22px;
+  padding: 0 21px;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #242424;
+}
+
+.heroImageFrame,
+.heroPicture {
+  display: block;
+  width: 100%;
+}
+
+.heroImageFrame {
+  aspect-ratio: 1920 / 880;
+}
+
+.heroImage {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.heroArrow {
+  position: absolute;
+  z-index: 2;
+  top: 50%;
+  display: inline-flex;
+  width: 42px;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transform: translateY(-50%);
+  border: 0;
+  border-radius: 50%;
+  background: rgb(255 99 27 / 76%);
+  color: #fff;
+  cursor: pointer;
+  transition: background 160ms ease, color 160ms ease;
+}
+
+.heroArrow:hover,
+.heroArrow:focus-visible {
+  background: var(--mai-orange-hover, #ff5201);
+  color: #fff;
+}
+
+.heroArrow svg {
+  width: 19px;
+  height: 19px;
+}
+
+.heroArrowLeft {
+  left: clamp(14px, 3vw, 42px);
+}
+
+.heroArrowRight {
+  right: clamp(14px, 3vw, 42px);
+}
+
+@media (min-width: 961px) {
+  .heroArrowRight {
+    right: clamp(76px, 5vw, 96px);
+  }
+}
+
+.heroDots {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 18px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 9px;
+}
+
+.heroDot {
+  width: 9px;
+  height: 9px;
+  padding: 0;
+  border: 1px solid #fff;
+  border-radius: 50%;
+  background: rgb(255 255 255 / 55%);
+  cursor: pointer;
+}
+
+.heroDotActive {
+  background: var(--mai-orange, #ff631b);
+  border-color: var(--mai-orange, #ff631b);
+}
+
+@media (max-width: 1200px) and (min-width: 961px) {
+  .headerInner {
+    gap: 12px;
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .logoLink {
+    width: 125px;
+    min-width: 112px;
+  }
+
+  .desktopNavigation {
+    gap: 9px;
+  }
+
+  .desktopNavItem > a {
+    font-size: 12px;
+  }
+
+  .warrantyButton {
+    min-height: 34px;
+    padding: 0 10px;
+    font-size: 11px;
+  }
+
+  .headerActions {
+    gap: 4px;
+  }
+}
+
+@media (max-width: 960px) {
+  .headerInner {
+    position: relative;
+    display: grid;
+    height: 72px;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 0;
+    padding: 0 14px;
+  }
+
+  .mobileTools {
+    display: flex;
+    align-items: center;
+  }
+
+  .logoLink {
+    width: 137px;
+    min-width: 0;
+    justify-self: center;
+  }
+
+  .desktopNavigation {
+    display: none;
+  }
+
+  .megaMenu {
+    display: none;
+  }
+
+  .headerActions {
+    justify-self: end;
+    gap: 5px;
+  }
+
+  .iconButton {
+    width: 34px;
+    height: 34px;
+  }
+
+  .heroImageFrame {
+    height: 211px;
+    aspect-ratio: auto;
+  }
+
+  .heroPicture,
+  .heroImage {
+    height: 100%;
+  }
+
+  .heroImage {
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .heroArrow {
+    width: 35px;
+    height: 35px;
+  }
+
+  .heroDots {
+    bottom: 11px;
+  }
+}
+
+@media (max-width: 460px) {
+  .announcement {
+    min-height: 42px;
+    padding: 0 14px;
+  }
+
+  .announcementText {
+    font-size: 12px;
+  }
+
+  .headerInner {
+    height: 66px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
+  .logoLink {
+    width: 126px;
+  }
+
+  .iconButton {
+    width: 32px;
+    height: 32px;
+  }
+
+  .headerActions {
+    gap: 2px;
+  }
+
+  .heroArrowLeft {
+    left: 8px;
+  }
+
+  .heroArrowRight {
+    right: 8px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .announcementText {
+    animation: none;
+  }
+
+  .desktopNavItem > a,
+  .warrantyButton,
+  .iconButton,
+  .heroArrow {
+    transition-duration: 0.01ms;
+  }
+}
+
+@keyframes ticker-in {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
