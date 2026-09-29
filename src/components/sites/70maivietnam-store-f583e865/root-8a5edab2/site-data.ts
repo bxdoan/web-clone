@@ -27,9 +27,9 @@ export const media = {
 
 export const contactPhones = [
   {
-    number: "09156670892",
-    tel: "tel:+849156670892",
-    zalo: "https://zalo.me/09156670892",
+    number: "0915670892",
+    tel: "tel:+84915670892",
+    zalo: "https://zalo.me/0915670892",
   },
   {
     number: "0904195065",
