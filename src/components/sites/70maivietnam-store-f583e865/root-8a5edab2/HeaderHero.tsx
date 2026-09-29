@@ -166,8 +166,8 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
             </button>
           </div>
 
-          <Link className={styles.logoLink} href="/" aria-label="70mai Việt Nam - Trang chủ">
-            <Image src={media.logo} alt="70mai Việt Nam" width={2085} height={807} priority />
+          <Link className={styles.logoLink} href="/" aria-label="70mai Nha Trang - Trang chủ">
+            <Image src={media.logo} alt="70mai Nha Trang" width={2085} height={807} priority />
           </Link>
 
           <nav className={styles.desktopNavigation} aria-label="Điều hướng chính">
@@ -257,8 +257,8 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
           <button className={styles.dialogScrim} type="button" aria-label="Đóng menu" tabIndex={-1} onClick={() => setMenuOpen(false)} />
           <div className={styles.dialogPanel}>
             <div className={styles.dialogHeader}>
-              <Link href="/" aria-label="70mai Việt Nam - Trang chủ">
-                <Image src={media.logo} alt="70mai Việt Nam" width={2085} height={807} />
+              <Link href="/" aria-label="70mai Nha Trang - Trang chủ">
+                <Image src={media.logo} alt="70mai Nha Trang" width={2085} height={807} />
               </Link>
               <button className={styles.iconButton} type="button" aria-label="Đóng menu" onClick={() => setMenuOpen(false)}>
                 <CloseIcon />
@@ -302,6 +302,14 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
               preload={slideIndex === 0}
             />
           </picture>
+          {slideIndex === 1 && (
+            <div className={styles.heroBrandBadge}>
+              <Image alt="70mai Nha Trang" fill sizes="16vw" src={media.logo} />
+            </div>
+          )}
+          {slideIndex === 1 && (
+            <div className={styles.heroLocalCaption}>Đại sứ thương hiệu 70mai Nha Trang</div>
+          )}
         </div>
 
         <button className={`${styles.heroArrow} ${styles.heroArrowLeft}`} type="button" onClick={showPreviousSlide} aria-label="Slide trước">

@@ -12,7 +12,7 @@ export const ASSET_ROOT =
 export const image = (filename: string): string => `${ASSET_ROOT}/${filename}`;
 
 export const media = {
-  logo: image("logo-70maivietnam.svg"),
+  logo: image("logo-70mai-nha-trang.svg"),
   desktopHeroOne: image("Banner-70mai-HD-2026-web-2336e553.webp"),
   desktopHeroTwo: image("70maivietnam-tc-98e4ba46.webp"),
   mobileHeroOne: image("Banner-70mai-HD-2026-mb-ffb45181.webp"),
@@ -32,16 +32,21 @@ export const contactPhones = [
     zalo: "https://zalo.me/0915670892",
   },
   {
-    number: "0904195065",
-    tel: "tel:+84904195065",
-    zalo: "https://zalo.me/0904195065",
+    number: "0888884368",
+    tel: "tel:+84888884368",
+    zalo: "https://zalo.me/0888884368",
+  },
+  {
+    number: "0905195065",
+    tel: "tel:+84905195065",
+    zalo: "https://zalo.me/0905195065",
   },
 ] as const;
 
 export const storeAddress = "2/18 Ngô Đến, Bắc Nha Trang, Khánh Hòa";
 
 const cameraPath = (slug: string): string =>
-  `https://70maivietnam.store/camera-hanh-trinh/${slug}/`;
+  `https://70mainhatrang.shop/camera-hanh-trinh/${slug}/`;
 
 export const featuredCameras: FeaturedCameraData[] = [
   {
@@ -156,9 +161,9 @@ export const cameraRailTwo: ProductCardData[] = [
 ];
 
 export const memoryCards: ProductCardData[] = [
-  { title: "Thẻ nhớ Lexar xanh 633x", price: "290.000₫", image: image("Anh-dai-dien-the-nho-lexar-633x1-1-b8685ac1.webp"), href: "https://70maivietnam.store/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-xanh-633/" },
-  { title: "Thẻ nhớ Lexar Blue Plus", price: "850.000₫", image: image("Anh-dai-dien-the-nho-lexar-blue-plus-1-29dde8b6.webp"), href: "https://70maivietnam.store/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-blue-plus/" },
-  { title: "Thẻ nhớ Lexar SILVER PLUS", price: "1.690.000₫", image: image("Anh-dai-dien-the-nho-lexar-silver-plusx-1-f90e5aea.webp"), href: "https://70maivietnam.store/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-silver-plus/" },
+  { title: "Thẻ nhớ Lexar xanh 633x", price: "290.000₫", image: image("Anh-dai-dien-the-nho-lexar-633x1-1-b8685ac1.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-xanh-633/" },
+  { title: "Thẻ nhớ Lexar Blue Plus", price: "850.000₫", image: image("Anh-dai-dien-the-nho-lexar-blue-plus-1-29dde8b6.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-blue-plus/" },
+  { title: "Thẻ nhớ Lexar SILVER PLUS", price: "1.690.000₫", image: image("Anh-dai-dien-the-nho-lexar-silver-plusx-1-f90e5aea.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/the-nho-camera-hanh-trinh/the-nho-lexar-silver-plus/" },
 ];
 
 export const benefits: ImageCopyCardData[] = [
@@ -179,40 +184,40 @@ export const accessoryCategories: AccessoryCategoryData[] = [
     id: "ext",
     title: "Phụ kiện 70mai",
     products: [
-      { title: "Kích bình ắc quy 70mai PS07", price: "1.790.000₫", image: image("70mai-PS07-Anh-Dai-Dien-2-848dae4c.webp"), href: "https://70maivietnam.store/kich-dien-binh-ac-quy/kich-binh-ac-quy-70mai-ps07/" },
-      { title: "Bơm lốp ô tô 70mai TP07", price: "1.350.000₫", image: image("1.1-3a91ded3.webp"), href: "https://70maivietnam.store/bom-lop-o-to/bom-lop-o-to-70mai-tp07/" },
-      { title: "Bơm lốp ô tô 70mai TP01", price: "1.490.000₫", image: image("70mai-TP01-fb63e07b.webp"), href: "https://70maivietnam.store/bom-lop-o-to/bom-xiaomi-70mai-tp01/" },
-      { title: "Bơm lốp ô tô 70mai TP10", price: "1.100.000₫", image: image("TP10-2-fa4dae31.webp"), href: "https://70maivietnam.store/bom-lop-o-to/bom-lop-o-to-70mai-tp10/" },
-      { title: "Kích bình ắc quy 70mai PS01", price: "Liên hệ", image: image("70mai-ps01-0e88ce32.webp"), href: "https://70maivietnam.store/phu-kien-70mai/kich-binh-ac-quy-70mai-ps01/" },
-      { title: "Máy hút bụi 70mai PV01", price: "Liên hệ", image: image("may-hut-bui-70mai-4e4dab1f.webp"), href: "https://70maivietnam.store/phu-kien-70mai/may-hut-bui-70mai-pv01/" },
+      { title: "Kích bình ắc quy 70mai PS07", price: "1.790.000₫", image: image("70mai-PS07-Anh-Dai-Dien-2-848dae4c.webp"), href: "https://70mainhatrang.shop/kich-dien-binh-ac-quy/kich-binh-ac-quy-70mai-ps07/" },
+      { title: "Bơm lốp ô tô 70mai TP07", price: "1.350.000₫", image: image("1.1-3a91ded3.webp"), href: "https://70mainhatrang.shop/bom-lop-o-to/bom-lop-o-to-70mai-tp07/" },
+      { title: "Bơm lốp ô tô 70mai TP01", price: "1.490.000₫", image: image("70mai-TP01-fb63e07b.webp"), href: "https://70mainhatrang.shop/bom-lop-o-to/bom-xiaomi-70mai-tp01/" },
+      { title: "Bơm lốp ô tô 70mai TP10", price: "1.100.000₫", image: image("TP10-2-fa4dae31.webp"), href: "https://70mainhatrang.shop/bom-lop-o-to/bom-lop-o-to-70mai-tp10/" },
+      { title: "Kích bình ắc quy 70mai PS01", price: "Liên hệ", image: image("70mai-ps01-0e88ce32.webp"), href: "https://70mainhatrang.shop/phu-kien-70mai/kich-binh-ac-quy-70mai-ps01/" },
+      { title: "Máy hút bụi 70mai PV01", price: "Liên hệ", image: image("may-hut-bui-70mai-4e4dab1f.webp"), href: "https://70mainhatrang.shop/phu-kien-70mai/may-hut-bui-70mai-pv01/" },
     ],
   },
   {
     id: "acc",
     title: "Phụ kiện Camera",
     products: [
-      { title: "Bộ Hardwire Kit UP04 cho camera hành trình 70mai hỗ trợ 4G", price: "Liên hệ", image: image("Hardwire-Kit-UP4-Module-4G-3128dfad.webp"), href: "https://70maivietnam.store/phu-kien-camera/bo-hardwire-kit-up04/" },
-      { title: "Bộ Hardwire Kit cổng OBD II cho camera hành trình 70mai", price: "Liên hệ", image: image("0dd3abdb29bbb49c407aab4820f2cc4e-af0d8fff.webp"), href: "https://70maivietnam.store/phu-kien-camera/bo-hardwire-kit-cong-obd-2/" },
-      { title: "Mắt camera sau 70mai RC11", price: "690.000₫", image: image("70mai-RC-11-12-3-2e738354.webp"), href: "https://70maivietnam.store/phu-kien-camera/70mai-rc11/" },
-      { title: "Mắt camera sau 70mai RC12", price: "Liên hệ", image: image("70mai-RC-11-12-3-2e738354.webp"), href: "https://70maivietnam.store/phu-kien-camera/70mai-rc12/" },
-      { title: "Mắt camera sau 70mai RC13", price: "Liên hệ", image: image("mat-cam-sau-RC13-e1717053577986-551f63c0.webp"), href: "https://70maivietnam.store/phu-kien-camera/70mai-rc13/" },
-      { title: "Tẩu sạc 70mai", price: "150.000₫", image: image("Tau-sac-70mai-672940c1.webp"), href: "https://70maivietnam.store/phu-kien-camera/tau-sac-70mai/" },
-      { title: "Cáp nguồn camera hành trình 70mai cổng Micro USB", price: "180.000₫", image: image("Cap-nguon-phu-kien-70mai-cho-Camera-hanh-trinh-7df52cbc.webp"), href: "https://70maivietnam.store/phu-kien-camera/cap-nguon-cho-camera-hanh-trinh-70mai/" },
-      { title: "Phụ kiện camera hành trình 70mai A810, A800S", price: "160.000₫", image: image("Phu-kien-70mai-danh-cho-Camera-hanh-trinh-A800S-07e921cf.webp"), href: "https://70maivietnam.store/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-a800s/" },
-      { title: "Phụ kiện camera hành trình 70mai A510, A500S, A200", price: "150.000₫", image: image("Phu-kien-70mai-cho-Dash-Cam-A500S-e157d698.webp"), href: "https://70maivietnam.store/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-a500s/" },
-      { title: "Phụ kiện camera hành trình 70mai 1S và M300", price: "150.000₫", image: image("Phu-kien-70mai-cho-Camera-hanh-trinh-1S-M300-1a9d479d.webp"), href: "https://70maivietnam.store/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-1s-m300/" },
-      { title: "Phụ kiện camera hành trình 70mai Omni", price: "150.000₫", image: image("Phu-kien-70mai-cho-Dash-Cam-Omni-3d5a6677.webp"), href: "https://70maivietnam.store/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-omni/" },
+      { title: "Bộ Hardwire Kit UP04 cho camera hành trình 70mai hỗ trợ 4G", price: "Liên hệ", image: image("Hardwire-Kit-UP4-Module-4G-3128dfad.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/bo-hardwire-kit-up04/" },
+      { title: "Bộ Hardwire Kit cổng OBD II cho camera hành trình 70mai", price: "Liên hệ", image: image("0dd3abdb29bbb49c407aab4820f2cc4e-af0d8fff.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/bo-hardwire-kit-cong-obd-2/" },
+      { title: "Mắt camera sau 70mai RC11", price: "690.000₫", image: image("70mai-RC-11-12-3-2e738354.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/70mai-rc11/" },
+      { title: "Mắt camera sau 70mai RC12", price: "Liên hệ", image: image("70mai-RC-11-12-3-2e738354.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/70mai-rc12/" },
+      { title: "Mắt camera sau 70mai RC13", price: "Liên hệ", image: image("mat-cam-sau-RC13-e1717053577986-551f63c0.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/70mai-rc13/" },
+      { title: "Tẩu sạc 70mai", price: "150.000₫", image: image("Tau-sac-70mai-672940c1.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/tau-sac-70mai/" },
+      { title: "Cáp nguồn camera hành trình 70mai cổng Micro USB", price: "180.000₫", image: image("Cap-nguon-phu-kien-70mai-cho-Camera-hanh-trinh-7df52cbc.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/cap-nguon-cho-camera-hanh-trinh-70mai/" },
+      { title: "Phụ kiện camera hành trình 70mai A810, A800S", price: "160.000₫", image: image("Phu-kien-70mai-danh-cho-Camera-hanh-trinh-A800S-07e921cf.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-a800s/" },
+      { title: "Phụ kiện camera hành trình 70mai A510, A500S, A200", price: "150.000₫", image: image("Phu-kien-70mai-cho-Dash-Cam-A500S-e157d698.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-a500s/" },
+      { title: "Phụ kiện camera hành trình 70mai 1S và M300", price: "150.000₫", image: image("Phu-kien-70mai-cho-Camera-hanh-trinh-1S-M300-1a9d479d.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-1s-m300/" },
+      { title: "Phụ kiện camera hành trình 70mai Omni", price: "150.000₫", image: image("Phu-kien-70mai-cho-Dash-Cam-Omni-3d5a6677.webp"), href: "https://70mainhatrang.shop/phu-kien-camera/phu-kien-camera-hanh-trinh-70mai-omni/" },
     ],
   },
   {
     id: "other",
     title: "Quà tặng 70mai",
     products: [
-      { title: "Áo thun 70mai", price: "Liên hệ", image: image("Dong-phuc-70mai-e894b60b.webp"), href: "https://70maivietnam.store/qua-tang-70mai/ao-thun-70mai/" },
-      { title: "Máy cắt lông mũi 70mai", price: "Liên hệ", image: image("may-cat-long-mui-70mai-1-2ea618c7.webp"), href: "https://70maivietnam.store/qua-tang-70mai/may-cat-long-mui-70mai/" },
-      { title: "Bình nước thể thao 70mai", price: "Liên hệ", image: image("Binh-nuoc-the-thao-368de306.webp"), href: "https://70maivietnam.store/qua-tang-70mai/binh-nuoc-the-thao-70mai/" },
-      { title: "Bình giữ nhiệt 70mai", price: "Liên hệ", image: image("Binh-nuoc-cach-nhiet-70mai-e828cb6f.webp"), href: "https://70maivietnam.store/qua-tang-70mai/binh-giu-nhiet-70mai/" },
-      { title: "Ô che nắng mưa 70mai", price: "Liên hệ", image: image("o-che-nang-mua-70mai-bbbc0a35.webp"), href: "https://70maivietnam.store/qua-tang-70mai/o-che-nang-mua-70mai/" },
+      { title: "Áo thun 70mai", price: "Liên hệ", image: image("Dong-phuc-70mai-e894b60b.webp"), href: "https://70mainhatrang.shop/qua-tang-70mai/ao-thun-70mai/" },
+      { title: "Máy cắt lông mũi 70mai", price: "Liên hệ", image: image("may-cat-long-mui-70mai-1-2ea618c7.webp"), href: "https://70mainhatrang.shop/qua-tang-70mai/may-cat-long-mui-70mai/" },
+      { title: "Bình nước thể thao 70mai", price: "Liên hệ", image: image("Binh-nuoc-the-thao-368de306.webp"), href: "https://70mainhatrang.shop/qua-tang-70mai/binh-nuoc-the-thao-70mai/" },
+      { title: "Bình giữ nhiệt 70mai", price: "Liên hệ", image: image("Binh-nuoc-cach-nhiet-70mai-e828cb6f.webp"), href: "https://70mainhatrang.shop/qua-tang-70mai/binh-giu-nhiet-70mai/" },
+      { title: "Ô che nắng mưa 70mai", price: "Liên hệ", image: image("o-che-nang-mua-70mai-bbbc0a35.webp"), href: "https://70mainhatrang.shop/qua-tang-70mai/o-che-nang-mua-70mai/" },
     ],
   },
 ];
@@ -223,36 +228,36 @@ export const footerColumns: FooterColumnData[] = [
   {
     title: "Sản phẩm chính",
     links: [
-      { label: "Camera hành trình", href: "https://70maivietnam.store/camera-hanh-trinh/" },
-      { label: "Phụ kiện 70mai", href: "https://70maivietnam.store/phu-kien-70mai/" },
-      { label: "Phụ kiện camera", href: "https://70maivietnam.store/phu-kien-camera/" },
-      { label: "Quà tặng 70mai", href: "https://70maivietnam.store/qua-tang-70mai/" },
-      { label: "Power Station", href: "https://70maivietnam.store/power-station/" },
+      { label: "Camera hành trình", href: "https://70mainhatrang.shop/camera-hanh-trinh/" },
+      { label: "Phụ kiện 70mai", href: "https://70mainhatrang.shop/phu-kien-70mai/" },
+      { label: "Phụ kiện camera", href: "https://70mainhatrang.shop/phu-kien-camera/" },
+      { label: "Quà tặng 70mai", href: "https://70mainhatrang.shop/qua-tang-70mai/" },
+      { label: "Power Station", href: "https://70mainhatrang.shop/power-station/" },
     ],
   },
   {
     title: "Hướng dẫn",
     links: [
-      { label: "HD Mua hàng", href: "https://70maivietnam.store/huong-dan-mua-hang/" },
-      { label: "HD lắp đặt", href: "https://70maivietnam.store/huong-dan-lap-dat/" },
-      { label: "HD sử dụng", href: "https://70maivietnam.store/huong-dan-su-dung/" },
-      { label: "HD bảo hành", href: "https://70maivietnam.store/huong-dan-bao-hanh/" },
+      { label: "HD Mua hàng", href: "https://70mainhatrang.shop/huong-dan-mua-hang/" },
+      { label: "HD lắp đặt", href: "https://70mainhatrang.shop/huong-dan-lap-dat/" },
+      { label: "HD sử dụng", href: "https://70mainhatrang.shop/huong-dan-su-dung/" },
+      { label: "HD bảo hành", href: "https://70mainhatrang.shop/huong-dan-bao-hanh/" },
     ],
   },
   {
     title: "Hỗ trợ khách hàng",
     links: [
-      { label: "Giới thiệu", href: "https://70maivietnam.store/gioi-thieu/" },
-      { label: "Bảo mật thông tin", href: "https://70maivietnam.store/bao-mat-thong-tin/" },
-      { label: "Giao hàng - vận chuyển", href: "https://70maivietnam.store/giao-hang-van-chuyen/" },
-      { label: "Bảo hành - đổi trả", href: "https://70maivietnam.store/bao-hanh-doi-tra/" },
-      { label: "Thanh toán", href: "https://70maivietnam.store/thanh-toan/" },
+      { label: "Giới thiệu", href: "https://70mainhatrang.shop/gioi-thieu/" },
+      { label: "Bảo mật thông tin", href: "https://70mainhatrang.shop/bao-mat-thong-tin/" },
+      { label: "Giao hàng - vận chuyển", href: "https://70mainhatrang.shop/giao-hang-van-chuyen/" },
+      { label: "Bảo hành - đổi trả", href: "https://70mainhatrang.shop/bao-hanh-doi-tra/" },
+      { label: "Thanh toán", href: "https://70mainhatrang.shop/thanh-toan/" },
     ],
   },
 ];
 
 export const socialLinks = [
-  { label: "Facebook", href: "https://www.facebook.com/70maivietnam/" },
+  { label: "Facebook", href: "https://www.facebook.com/70mainhatrangshop/" },
   { label: "Youtube", href: "https://www.youtube.com/@70maiVietnam" },
   { label: "Shopee", href: "https://shopee.vn/70maivietnam" },
   { label: "Tiktok", href: "https://www.tiktok.com/@70maivietnam" },

@@ -20,7 +20,7 @@ const mobileContacts = [
 
 export function ContactWidgets() {
   return (
-    <aside className={styles.contacts} aria-label="Liên hệ 70mai Việt Nam">
+    <aside className={styles.contacts} aria-label="Liên hệ 70mai Nha Trang">
       <nav className={styles.desktopRail} aria-label="Liên hệ nhanh">
         {socialContacts.map((contact) => (
           <a className={styles.railItem} href={contact.href} key={contact.label}>

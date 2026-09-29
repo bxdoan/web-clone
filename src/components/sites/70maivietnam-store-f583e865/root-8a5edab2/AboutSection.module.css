@@ -48,6 +48,42 @@
   aspect-ratio: 1140 / 791;
 }
 
+.affiliateLogo {
+  position: absolute;
+  top: 3%;
+  left: 42%;
+  z-index: 1;
+  width: 16%;
+  aspect-ratio: 2085 / 807;
+  padding: 0.5%;
+  background: #fffaf1;
+}
+
+.affiliateLogo img {
+  object-fit: contain;
+}
+
+.affiliateContacts {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  display: flex;
+  height: 10%;
+  align-items: center;
+  justify-content: center;
+  gap: clamp(16px, 4vw, 56px);
+  background: #fffaf1;
+}
+
+.affiliateContacts a {
+  color: #eb3c16;
+  font-size: clamp(11px, 1.8vw, 20px);
+  font-weight: 800;
+  text-decoration: none;
+}
+
 .mapImage {
   aspect-ratio: 1140 / 652;
 }

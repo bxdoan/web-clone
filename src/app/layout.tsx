@@ -20,9 +20,9 @@ const manrope = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Camera Hành Trình Ô Tô 70mai | Chính Hãng - Giá Rẻ - Bán Chạy",
+  title: "70mai Nha Trang | Camera Hành Trình và Phụ Kiện Chính Hãng",
   description:
-    "Camera hành trình 70mai chính hãng tại Việt Nam. Khám phá các dòng camera, phụ kiện, hướng dẫn lắp đặt và hệ thống đại lý.",
+    "Camera hành trình và phụ kiện 70mai chính hãng tại Nha Trang. Tư vấn sản phẩm, lắp đặt và hỗ trợ khách hàng tại Khánh Hòa.",
 };
 
 export default function RootLayout({

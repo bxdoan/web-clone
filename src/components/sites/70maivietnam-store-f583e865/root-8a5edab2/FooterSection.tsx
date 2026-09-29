@@ -31,7 +31,7 @@ export function FooterSection() {
             </ul>
           </section>
         </div>
-        <div className={styles.copyright}>© 2023 70mai Việt Nam Offical Store</div>
+        <div className={styles.copyright}>© 2023 70mai Nha Trang Official Store</div>
       </div>
     </footer>
   );

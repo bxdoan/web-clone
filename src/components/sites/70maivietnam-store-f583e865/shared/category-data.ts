@@ -23,7 +23,7 @@ export const categoryListings = {
     heading: "CAMERA HÀNH TRÌNH",
     breadcrumb: "Camera hành trình",
     totalCount: 25,
-    description: "70mai Việt Nam - Nhà phân phối camera hành trình 70mai chính hãng quốc tế. Top camera 70mai hiện nay nên lắp cho xế cưng của bạn.",
+    description: "70mai Nha Trang tư vấn và phân phối camera hành trình 70mai chính hãng. Khám phá những dòng camera phù hợp cho xế cưng của bạn.",
     products: [
       { title: "Camera hành trình 70mai 4K A810 Lite", price: "2.790.000₫", image: "/sites/70maivietnam-store-f583e865/root-8a5edab2/images/anh-dai-dien-A810-lite-2-83202a29.webp", href: "/camera-hanh-trinh/camera-hanh-trinh-70mai-a810-lite/" },
       { title: "Camera hành trình 70mai 4K Omni X800", price: "5.990.000₫", image: "/sites/70maivietnam-store-f583e865/root-8a5edab2/images/70mai-X800-4K-xoay-360-ket-noi-4G-2-3f6514ad.webp", href: "/camera-hanh-trinh/camera-hanh-trinh-70mai-omni-x800/" },
@@ -99,7 +99,7 @@ export const categoryListings = {
     heading: "PHỤ KIỆN 70MAI",
     breadcrumb: "Phụ kiện 70mai",
     totalCount: 10,
-    description: "Top phụ kiện 70mai Xiaomi cần thiết nên trang bị khi mới mua xe đảm bảo an toàn trên mọi hành trình. 70mai Việt Nam - Đại diện chính thức 70mai tại Việt Nam",
+    description: "Top phụ kiện 70mai cần thiết nên trang bị khi mới mua xe để an tâm trên mọi hành trình. 70mai Nha Trang tư vấn và hỗ trợ sản phẩm tại địa phương.",
     products: [
       { title: "Bộ Gối Tựa Đầu và Tựa Lưng 70mai Cho Ô Tô", price: "380.000₫", image: "/sites/70maivietnam-store-f583e865/shared/images/category-listing/61f9bc93ae44.jpg", href: "/phu-kien-70mai/bo-goi-tua-dau-va-tua-lung-70mai-cho-o-to/" },
       { title: "Bộ tích điện 70mai cho camera hành trình", price: "Liên hệ", image: "/sites/70maivietnam-store-f583e865/shared/images/category-listing/a1c094281774.jpg", href: "/phu-kien-70mai/bo-tich-dien-70mai-cho-camera-hanh-trinh/" },

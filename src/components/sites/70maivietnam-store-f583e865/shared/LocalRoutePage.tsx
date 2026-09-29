@@ -34,7 +34,7 @@ export function LocalRoutePage({ pathname }: { pathname: string }) {
     <main className={styles.page}>
       <div className={styles.breadcrumb}><Link href="/">Tổng quan</Link><span>/</span><span>{title}</span></div>
       <section className={styles.content}>
-        <p className={styles.eyebrow}>70MAI VIỆT NAM</p>
+        <p className={styles.eyebrow}>70MAI NHA TRANG</p>
         <h1>{title}</h1>
         {isCart ? (
           <>
@@ -43,7 +43,7 @@ export function LocalRoutePage({ pathname }: { pathname: string }) {
           </>
         ) : (
           <>
-            <p>Trang này đang được dựng trong bản sao website 70mai Việt Nam.</p>
+            <p>Trang này đang được dựng trong bản sao website 70mai Nha Trang.</p>
             <p>Các liên kết và thao tác trên trang này vẫn ở trong bản clone.</p>
             <div className={styles.links}>
               <Link href="/camera-hanh-trinh/">Camera hành trình</Link>

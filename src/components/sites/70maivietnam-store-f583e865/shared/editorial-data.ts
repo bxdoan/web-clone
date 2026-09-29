@@ -126,7 +126,7 @@ export const EDITORIAL_ARTICLES: EditorialArticleData[] = [
       {
         heading: "Chọn nơi lắp đặt có hướng dẫn rõ ràng",
         paragraphs: [
-          "Đơn vị lắp đặt nên đi dây gọn, không che khuất tầm nhìn và hướng dẫn bạn kết nối ứng dụng cũng như kiểm tra lại camera. Bạn có thể liên hệ 70mai Việt Nam để hỏi về sản phẩm và điểm hỗ trợ gần mình.",
+          "Đơn vị lắp đặt nên đi dây gọn, không che khuất tầm nhìn và hướng dẫn bạn kết nối ứng dụng cũng như kiểm tra lại camera. Bạn có thể liên hệ 70mai Nha Trang để hỏi về sản phẩm và lịch lắp đặt.",
         ],
       },
     ],
@@ -213,7 +213,7 @@ export const EDITORIAL_ARTICLES: EditorialArticleData[] = [
       {
         heading: "Hỏi về giao hàng và lắp đặt",
         paragraphs: [
-          "Thời gian giao hàng, phí vận chuyển và điểm lắp đặt có thể thay đổi theo khu vực. Liên hệ đội ngũ 70mai Việt Nam để kiểm tra phương án phục vụ tại địa chỉ của bạn trước khi đặt hàng.",
+          "Thời gian giao hàng, phí vận chuyển và điểm lắp đặt có thể thay đổi theo khu vực. Liên hệ 70mai Nha Trang để kiểm tra phương án phục vụ tại địa chỉ của bạn trước khi đặt hàng.",
         ],
       },
       {
@@ -230,7 +230,7 @@ export const UTILITY_PAGES: UtilityPageData[] = [
   {
     title: "Hướng dẫn mua hàng",
     path: "/huong-dan-mua-hang/",
-    summary: "Các bước chọn sản phẩm và liên hệ đội ngũ 70mai Việt Nam để được hỗ trợ đặt hàng.",
+    summary: "Các bước chọn sản phẩm và liên hệ 70mai Nha Trang để được hỗ trợ đặt hàng.",
     sections: [
       {
         heading: "Chọn sản phẩm phù hợp",
@@ -330,12 +330,12 @@ export const UTILITY_PAGES: UtilityPageData[] = [
   {
     title: "Giới thiệu",
     path: "/gioi-thieu/",
-    summary: "70mai Việt Nam là đơn vị đại diện phân phối camera hành trình ô tô 70mai tại thị trường Việt Nam.",
+    summary: "70mai Nha Trang tư vấn camera hành trình và phụ kiện 70mai, hỗ trợ khách hàng tại Khánh Hòa.",
     sections: [
       {
-        heading: "70mai Việt Nam",
+        heading: "70mai Nha Trang",
         paragraphs: [
-          "70mai Việt Nam giới thiệu các dòng camera hành trình và phụ kiện 70mai dành cho người dùng tại Việt Nam. Khách hàng có thể tìm hiểu sản phẩm, nhận tư vấn và kết nối với hệ thống điểm hỗ trợ trên toàn quốc.",
+          "70mai Nha Trang giới thiệu các dòng camera hành trình và phụ kiện 70mai. Khách hàng có thể tìm hiểu sản phẩm, nhận tư vấn và kết nối với điểm hỗ trợ tại Nha Trang.",
         ],
       },
       {
@@ -360,7 +360,7 @@ export const UTILITY_PAGES: UtilityPageData[] = [
       {
         heading: "Cách sử dụng thông tin",
         paragraphs: [
-          "Thông tin được sử dụng để phản hồi câu hỏi, tư vấn sản phẩm và hỗ trợ đơn hàng hoặc bảo hành. Nếu bạn cần cập nhật hoặc hỏi về thông tin đã cung cấp, hãy liên hệ 70mai Việt Nam.",
+          "Thông tin được sử dụng để phản hồi câu hỏi, tư vấn sản phẩm và hỗ trợ đơn hàng hoặc bảo hành. Nếu bạn cần cập nhật hoặc hỏi về thông tin đã cung cấp, hãy liên hệ 70mai Nha Trang.",
         ],
       },
       {

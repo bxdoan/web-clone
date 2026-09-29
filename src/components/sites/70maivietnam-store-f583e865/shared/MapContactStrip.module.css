@@ -1,3 +1,86 @@
+.logo {
+  position: absolute;
+  top: 1.5%;
+  right: 3%;
+  z-index: 2;
+  width: 20%;
+  aspect-ratio: 2085 / 807;
+  padding: 0.4%;
+  background: #fff;
+}
+
+.logo img {
+  object-fit: contain;
+}
+
+.brandBanner {
+  position: absolute;
+  top: 15.5%;
+  right: 4.5%;
+  z-index: 2;
+  display: grid;
+  width: 43%;
+  height: 9%;
+  place-items: center;
+  clip-path: polygon(7% 0, 100% 0, 93% 100%, 0 100%);
+  background: #e30613;
+  color: #fff;
+  font-size: clamp(11px, 2.3vw, 34px);
+  font-style: italic;
+  font-weight: 800;
+  white-space: nowrap;
+}
+
+.localCoverage {
+  position: absolute;
+  top: 45%;
+  left: 4%;
+  z-index: 2;
+  display: grid;
+  width: 26%;
+  height: 20%;
+  align-content: center;
+  justify-items: center;
+  gap: 5%;
+  background: #fff;
+  color: #e30613;
+  text-align: center;
+}
+
+.localCoverage strong {
+  font-size: clamp(17px, 4.2vw, 60px);
+  font-weight: 900;
+  line-height: 1;
+}
+
+.localCoverage span {
+  font-size: clamp(8px, 1.45vw, 21px);
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.callout {
+  position: absolute;
+  right: 9%;
+  bottom: 22%;
+  z-index: 2;
+  display: grid;
+  width: 34%;
+  height: 10%;
+  place-items: center;
+  padding: 0 2%;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  background: linear-gradient(#ed0808, #bd0000);
+  box-shadow: 0 2px 4px #555;
+  color: #fff;
+  font-size: clamp(9px, 1.55vw, 22px);
+  font-style: italic;
+  font-weight: 800;
+  line-height: 1.15;
+  text-align: center;
+}
+
 .strip {
   position: absolute;
   right: 0;
@@ -40,6 +123,22 @@
 }
 
 @media (max-width: 640px) {
+  .brandBanner {
+    font-size: clamp(10px, 2.3vw, 14px);
+  }
+
+  .localCoverage strong {
+    font-size: 4vw;
+  }
+
+  .localCoverage span {
+    font-size: 1.55vw;
+  }
+
+  .callout {
+    font-size: 1.65vw;
+  }
+
   .strip {
     width: 58%;
     height: 20%;

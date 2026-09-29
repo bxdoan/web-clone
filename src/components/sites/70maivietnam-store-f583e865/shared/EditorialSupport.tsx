@@ -53,7 +53,7 @@ function ContactCallout() {
   return (
     <aside className={styles.contactCallout}>
       <p>Cần thêm thông tin về sản phẩm hoặc hỗ trợ?</p>
-      <Link href="/lien-he/">Liên hệ 70mai Việt Nam</Link>
+      <Link href="/lien-he/">Liên hệ 70mai Nha Trang</Link>
     </aside>
   );
 }
@@ -64,7 +64,7 @@ function EditorialListing() {
       <div className={styles.container}>
         <Breadcrumbs items={[{ label: "Tổng quan", href: "/" }, { label: "Tin tức" }]} />
         <header className={styles.listingHeader}>
-          <p className={styles.kicker}>Cập nhật thông tin tổng hợp từ 70mai Việt Nam</p>
+          <p className={styles.kicker}>Cập nhật thông tin từ 70mai Nha Trang</p>
           <h1>TIN TỨC MỚI</h1>
         </header>
 
@@ -118,7 +118,7 @@ function EditorialArticlePage({ slug }: { slug: string }) {
         ]} />
         <article className={styles.articleDetail}>
           <header className={styles.articleHeader}>
-            <p className={styles.kicker}>Tin tức 70mai Việt Nam</p>
+            <p className={styles.kicker}>Tin tức 70mai Nha Trang</p>
             <h1>{article.title}</h1>
             <p className={styles.articleIntro}>{article.intro}</p>
           </header>
@@ -152,10 +152,10 @@ function ContactPage() {
       <div className={styles.container}>
         <Breadcrumbs items={[{ label: "Tổng quan", href: "/" }, { label: "Liên hệ" }]} />
         <header className={styles.contactHeader}>
-          <p className={styles.kicker}>70mai Việt Nam</p>
+          <p className={styles.kicker}>70mai Nha Trang</p>
           <h1>Liên hệ</h1>
           <p>
-            Bất cứ điều gì bạn cần, chỉ cần liên hệ với 70mai Việt Nam, chúng tôi sẽ cố gắng hết sức để phản hồi trong thời gian sớm nhất.
+            Bất cứ điều gì bạn cần, hãy liên hệ 70mai Nha Trang để được tư vấn và hỗ trợ trong thời gian sớm nhất.
           </p>
         </header>
 
@@ -170,7 +170,7 @@ function ContactPage() {
           <article className={styles.channelCard}>
             <span className={styles.channelIcon}><span aria-hidden="true">@</span></span>
             <h2>Email</h2>
-            <a href="mailto:hdnhatrang@gmail.com">hdnhatrang@gmail.com</a>
+            <a href="mailto:70mainhatrang@gmail.com">70mainhatrang@gmail.com</a>
           </article>
         </section>
 
@@ -195,11 +195,11 @@ function ContactPage() {
 
         <section aria-labelledby="location-map-title" className={styles.locationSection} id="store-map">
           <header className={styles.sectionHeading}>
-            <h2 id="location-map-title">Hệ thống đại lý 70mai Việt Nam</h2>
+            <h2 id="location-map-title">Điểm hỗ trợ 70mai Nha Trang</h2>
           </header>
           <div className={styles.mapImage}>
             <Image
-              alt="Bản đồ hệ thống đại lý 70mai Việt Nam"
+              alt="Bản đồ hỗ trợ 70mai Nha Trang"
               fill
               sizes="(max-width: 640px) 100vw, 1140px"
               src={media.map}
@@ -228,7 +228,7 @@ function UtilityArticlePage({ slug }: { slug: string }) {
         <div className={styles.readableContainer}>
           <Breadcrumbs items={[{ label: "Tổng quan", href: "/" }, { label: "Hỗ trợ" }]} />
           <h1 className={styles.notFoundTitle}>Nội dung đang được cập nhật</h1>
-          <p>Liên hệ 70mai Việt Nam để được hướng dẫn trực tiếp.</p>
+          <p>Liên hệ 70mai Nha Trang để được hướng dẫn trực tiếp.</p>
           <Link className={styles.readMore} href="/lien-he/">Liên hệ hỗ trợ <span aria-hidden="true">→</span></Link>
         </div>
       </main>
