@@ -3,6 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { Pause, Play } from "lucide-react";
 import {
   ArrowLeftIcon,
   ArrowRightIcon,
@@ -97,6 +98,8 @@ const slides = [
 export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
   const [announcementIndex, setAnnouncementIndex] = useState(0);
   const [slideIndex, setSlideIndex] = useState(0);
+  const [heroPaused, setHeroPaused] = useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
   const [searchOpen, setSearchOpen] = useState(false);
   const [warrantyOpen, setWarrantyOpen] = useState(false);
@@ -113,12 +116,23 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
   }, []);
 
   useEffect(() => {
+    const motionPreference = window.matchMedia("(prefers-reduced-motion: reduce)");
+    const updateMotionPreference = () => setPrefersReducedMotion(motionPreference.matches);
+
+    updateMotionPreference();
+    motionPreference.addEventListener("change", updateMotionPreference);
+    return () => motionPreference.removeEventListener("change", updateMotionPreference);
+  }, []);
+
+  useEffect(() => {
+    if (heroPaused || prefersReducedMotion) return;
+
     const timer = window.setInterval(() => {
       setSlideIndex((index) => (index + 1) % slides.length);
     }, 6000);
 
     return () => window.clearInterval(timer);
-  }, []);
+  }, [heroPaused, prefersReducedMotion]);
 
   useEffect(() => {
     const dialog = menuDialogRef.current;
@@ -288,7 +302,7 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
         </dialog>
       )}
 
-      {showHero && <section className={styles.hero} aria-label="Sản phẩm nổi bật 70mai">
+      {showHero && <section className={styles.hero} aria-label="Sản phẩm nổi bật 70mai" onFocusCapture={() => setHeroPaused(true)}>
         <div className={styles.heroImageFrame}>
           <picture className={styles.heroPicture}>
             <source media="(max-width: 960px)" srcSet={slides[slideIndex].mobile} />
@@ -329,6 +343,14 @@ export function HeaderHero({ showHero = true }: { showHero?: boolean }) {
               aria-current={index === slideIndex ? "true" : undefined}
             />
           ))}
+          <button
+            aria-label={heroPaused || prefersReducedMotion ? "Tiếp tục tự chuyển slide" : "Dừng tự chuyển slide"}
+            className={styles.heroPause}
+            onClick={() => setHeroPaused((paused) => !paused)}
+            type="button"
+          >
+            {heroPaused || prefersReducedMotion ? <Play aria-hidden="true" size={14} /> : <Pause aria-hidden="true" size={14} />}
+          </button>
         </div>
       </section>}
     </>

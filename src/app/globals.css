@@ -25,17 +25,17 @@
 }
 
 :root {
-  --background: #ffffff;
-  --foreground: #2c2c31;
+  --background: #f6f7f9;
+  --foreground: #17202d;
   --card: #ffffff;
-  --card-foreground: #333333;
-  --primary: #ff631b;
+  --card-foreground: #17202d;
+  --primary: #f15a24;
   --primary-foreground: #ffffff;
-  --muted: #f8f8f8;
-  --muted-foreground: #666666;
-  --border: #eeeeee;
-  --ring: #ff631b;
-  --radius: 0.625rem;
+  --muted: #f0f2f5;
+  --muted-foreground: #647184;
+  --border: #e3e7ed;
+  --ring: #f15a24;
+  --radius: 1rem;
 }
 
 @layer base {
@@ -61,23 +61,26 @@
 }
 
 .site-70mai {
-  --mai-orange: #ff631b;
-  --mai-orange-hover: #ff5201;
-  --mai-orange-active: #e74900;
-  --mai-charcoal: #2c2c31;
-  --mai-copy: #333333;
-  --mai-muted: #666666;
+  --mai-orange: #f15a24;
+  --mai-orange-hover: #d94716;
+  --mai-orange-active: #bd3611;
+  --mai-charcoal: #17202d;
+  --mai-copy: #263140;
+  --mai-muted: #647184;
+  --mai-border: #e3e7ed;
+  --mai-soft-shadow: 0 14px 36px rgb(24 35 50 / 8%);
+  --mai-card-shadow: 0 5px 18px rgb(24 35 50 / 5%);
   --mai-surface: #ffffff;
-  --mai-section: #f8f8f8;
-  --mai-card: #eeeeee;
-  --mai-ticker: #202020;
-  --mai-call: #e64949;
-  --mai-dealer: #2196f3;
+  --mai-section: #f5f6f8;
+  --mai-card: #ffffff;
+  --mai-ticker: #171e28;
+  --mai-call: #df493f;
+  --mai-dealer: #f15a24;
   color: var(--mai-charcoal);
-  background: var(--mai-surface);
+  background: var(--mai-section);
   font-family: var(--font-manrope), Manrope, Arial, sans-serif;
   font-size: 16px;
-  line-height: 1.5;
+  line-height: 1.6;
   overflow: clip;
 }
 
@@ -100,4 +103,19 @@
 .site-70mai button {
   color: inherit;
   font: inherit;
+}
+
+.site-70mai :focus-visible {
+  outline: 3px solid rgb(241 90 36 / 45%);
+  outline-offset: 3px;
+}
+
+.site-70mai ::selection {
+  background: rgb(241 90 36 / 18%);
+}
+
+@media (max-width: 960px) {
+  .site-70mai {
+    padding-bottom: 70px;
+  }
 }

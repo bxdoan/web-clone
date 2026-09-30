@@ -185,3 +185,54 @@
     animation: none;
   }
 }
+
+.desktopRail {
+  right: 16px;
+  border: 1px solid var(--mai-border, #e3e7ed);
+  border-radius: 16px;
+  padding: 8px 0;
+  box-shadow: var(--mai-soft-shadow);
+}
+
+.railItem {
+  min-height: 68px;
+  font-size: 10px;
+}
+
+.dealer {
+  width: 58px;
+  height: 58px;
+  background: var(--mai-orange, #f15a24);
+  box-shadow: 0 5px 14px rgb(24 35 50 / 18%);
+}
+
+.dealer:hover {
+  background: var(--mai-orange-hover, #d94716);
+}
+
+.desktopPhones a {
+  min-height: 42px;
+  padding: 0 17px;
+  border: 1px solid rgb(255 255 255 / 40%);
+  border-radius: 999px;
+  background: #17202d;
+  box-shadow: 0 5px 18px rgb(24 35 50 / 18%);
+}
+
+@media (max-width: 960px) {
+  .mobileBar {
+    min-height: 72px;
+    padding: 8px 5px max(6px, env(safe-area-inset-bottom));
+    border-top: 1px solid var(--mai-border, #e3e7ed);
+    box-shadow: 0 -7px 24px rgb(24 35 50 / 10%);
+  }
+
+  .mobileItem {
+    min-height: 48px;
+    font-size: 10px;
+  }
+
+  .phoneCircle {
+    background: var(--mai-orange, #f15a24);
+  }
+}

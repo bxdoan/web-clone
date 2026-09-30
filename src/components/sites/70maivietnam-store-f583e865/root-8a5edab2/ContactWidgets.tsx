@@ -5,9 +5,11 @@ import { contactPhones, media } from "./site-data";
 import styles from "./ContactWidgets.module.css";
 
 const socialContacts = [
-  { label: `Zalo ${contactPhones[0].number}`, image: media.zalo, href: contactPhones[0].zalo },
-  { label: `Zalo ${contactPhones[1].number}`, image: media.zalo, href: contactPhones[1].zalo },
-  { label: `Zalo ${contactPhones[2].number}`, image: media.zalo, href: contactPhones[2].zalo },
+  ...contactPhones.map((contact) => ({
+    label: `Zalo ${contact.number}`,
+    image: media.zalo,
+    href: contact.zalo,
+  })),
   { label: "Messager", image: media.messenger, href: "https://m.me/70mainhatrangshop" },
   { label: "Tìm đường", image: media.mapIcon, href: "/lien-he/#store-map" },
 ];
@@ -15,8 +17,8 @@ const socialContacts = [
 const mobileContacts = [
   ...socialContacts.slice(0, 2),
   { label: "Gọi điện", image: "", href: contactPhones[0].tel },
-  socialContacts[2],
-  socialContacts[3],
+  ...socialContacts.slice(2, contactPhones.length),
+  socialContacts[contactPhones.length],
 ];
 
 export function ContactWidgets() {

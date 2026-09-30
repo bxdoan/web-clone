@@ -399,3 +399,195 @@
     transition: none;
   }
 }
+
+.cameraRails {
+  width: min(1220px, calc(100% - 48px));
+  gap: 28px;
+  margin: 38px auto 50px;
+}
+
+.rail {
+  width: 100%;
+  height: 356px;
+}
+
+.first,
+.second {
+  height: 356px;
+}
+
+.viewport {
+  height: calc(100% - 42px);
+  padding: 4px 0 9px;
+}
+
+.track {
+  transition-duration: 420ms;
+}
+
+.slide {
+  padding: 0 9px;
+}
+
+.card {
+  gap: 6px;
+  padding: 16px 16px 17px;
+  border: 1px solid var(--mai-border, #e3e7ed);
+  border-radius: 18px;
+  box-shadow: var(--mai-card-shadow);
+}
+
+.card:hover {
+  box-shadow: var(--mai-soft-shadow);
+  transform: translateY(-3px);
+}
+
+.imageFrame {
+  flex-basis: 196px;
+}
+
+.cardCopy {
+  padding-top: 8px;
+}
+
+.productTitle {
+  color: var(--mai-charcoal, #17202d);
+  font-size: 15px;
+  line-height: 1.45;
+  max-height: 44px;
+}
+
+.price {
+  color: var(--mai-orange, #f15a24);
+  font-size: 16px;
+}
+
+.buyButton {
+  min-width: 112px;
+  height: 34px;
+  border-radius: 999px;
+  background: #fff2eb;
+  color: #d94716;
+  font-size: 13px;
+}
+
+.card:hover .buyButton {
+  background: var(--mai-orange, #f15a24);
+  color: #fff;
+}
+
+.controls {
+  height: 42px;
+  gap: 18px;
+}
+
+.arrow {
+  width: 36px;
+  height: 36px;
+  border: 1px solid var(--mai-border, #e3e7ed);
+  background: #fff;
+  box-shadow: 0 2px 8px rgb(24 35 50 / 5%);
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  background: #cbd2dc;
+}
+
+.memorySection {
+  min-height: unset;
+  padding: 48px 24px 44px;
+  background: #fff;
+}
+
+.memoryInner {
+  max-width: 1220px;
+}
+
+.memoryHeading {
+  margin-bottom: 26px;
+  color: var(--mai-charcoal, #17202d);
+  font-size: clamp(24px, 3vw, 32px);
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.memory {
+  height: 380px;
+}
+
+.memory .imageFrame {
+  flex-basis: 222px;
+}
+
+.camera .viewport {
+  background: transparent;
+}
+
+@media (max-width: 900px) {
+  .cameraRails {
+    width: calc(100% - 36px);
+    margin: 32px auto 42px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cameraRails {
+    width: calc(100% - 24px);
+    margin: 28px auto 36px;
+    gap: 20px;
+    padding: 0;
+    background: transparent;
+  }
+
+  .rail,
+  .first,
+  .second {
+    height: 354px;
+  }
+
+  .slide,
+  .memory .slide {
+    padding-inline: 8px;
+  }
+
+  .card,
+  .memory .card {
+    padding: 13px 14px;
+    background: #fff;
+  }
+
+  .imageFrame,
+  .memory .imageFrame {
+    height: 205px;
+    flex-basis: auto;
+  }
+
+  .productTitle {
+    font-size: 15px;
+  }
+
+  .price {
+    margin-top: 5px;
+  }
+
+  .memorySection {
+    padding: 36px 12px 34px;
+  }
+
+  .memory {
+    height: 354px;
+  }
+
+  .memoryHeading {
+    margin: 0 8px 19px;
+    font-size: 24px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .track {
+    transition: none;
+  }
+}
